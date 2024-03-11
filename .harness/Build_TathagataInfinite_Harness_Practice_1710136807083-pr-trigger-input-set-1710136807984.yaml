@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_TathagataInfinite_Harness_Practice_1710136807083-pr-trigger-input-set
+  identifier: Build_TathagataInfinite_Harness_Practice_1710136807083prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessAzureSample
+  pipeline:
+    identifier: Build_TathagataInfinite_Harness_Practice_1710136807083
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
